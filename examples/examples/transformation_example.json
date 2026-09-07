@@ -1,0 +1,53 @@
+{
+  "market_signal": {
+    "signal_id": "sig_sample_88392",
+    "source_category": "Enterprise B2B Sales",
+    "timestamp": "2026-09-03T10:15:00Z",
+    "anonymized_author": "Industry Thought Leader A",
+    "raw_input_summary": "Most sales reps rush to demo software as soon as a prospect mentions a pain point. High performers stop and ask three deeper diagnostic questions first."
+  },
+  "categorization": {
+    "primary_category": "Sales Strategy",
+    "secondary_categories": [
+      "Buyer Psychology",
+      "Enterprise Sales"
+    ],
+    "taxonomy_confidence": 0.96
+  },
+  "intelligence_extraction": {
+    "core_premise": "Premature solution pitching signals seller impatience and degrades authority.",
+    "hidden_tension": "Sellers feel showing features demonstrates competence; buyers experience it as lack of diagnosis.",
+    "b2b_sales_application": "Challenger discovery methodology in enterprise software sales."
+  },
+  "candidate_competition": [
+    {
+      "candidate_id": "cand_A",
+      "angle_type": "Contrarian",
+      "hook": "The fastest way to kill credibility in an enterprise sales call is answering the buyer's question immediately.",
+      "score": {
+        "intellectual_quality": 88,
+        "human_interest": 8.6
+      }
+    },
+    {
+      "candidate_id": "cand_B",
+      "angle_type": "Observation / Insight",
+      "hook": "I've watched good salespeople lose enterprise deals while doing exactly what their playbook taught them.",
+      "score": {
+        "intellectual_quality": 92,
+        "human_interest": 9.1
+      },
+      "status": "WINNER"
+    }
+  ],
+  "approved_output": {
+    "final_text": "I've watched good salespeople lose enterprise deals while doing exactly what their playbook taught them.\n\nThe prospect mentions a broken workflow. The seller immediately switches to screen share and shows the feature that fixes it.\n\nThey think they're demonstrating competence. What the buyer actually experiences is impatience.\n\nWhen you offer a solution five seconds after hearing a problem, you signal that the problem is trivial.\n\nIn complex B2B deals, authority comes from diagnosis, not demo speed.\n\nBefore showing the solution, three questions worth asking:\n1. How long has this problem existed?\n2. What internal workarounds have already failed?\n3. Who else in the company feels the impact when this stalls?\n\nHave you ever seen a deal slow down because the seller moved too fast?",
+    "quality_metrics": {
+      "quality_score": "92/100",
+      "human_interest_score": "9.1/10",
+      "selected_angle": "Observation / Insight",
+      "anti_slop_passed": true
+    },
+    "human_review_status": "Approved for Mobile Distribution"
+  }
+}
