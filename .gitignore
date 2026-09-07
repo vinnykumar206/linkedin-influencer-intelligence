@@ -1,0 +1,37 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Authentication / browser sessions
+*session*.json
+*cookie*.json
+cookies/
+sessions/
+browser-data/
+
+# Production data
+*.xlsx
+*.xls
+*.csv
+*.sqlite
+*.db
+
+# Logs and generated output
+*.log
+logs/
+output/
+data/
+
+# Local / machine-specific files
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+scratch/
